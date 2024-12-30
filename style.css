@@ -1,0 +1,118 @@
+ *{
+    padding: 5px;
+ }
+ header{
+    background-color: hsl(223, 3%, 56%);
+    height: 700px;
+    border-radius: 5px;
+    padding-bottom: 90px;
+ }   
+#hero{
+    display: flex;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 15px;
+}
+span{
+    color: rgb(73, 166, 219);
+    font-size: 50px;
+}
+#lien a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px;
+}
+#lampe{
+align-items: center;
+text-align: center;
+}
+#lampe h1{
+    color: white;
+    width: 100%;
+    font-size: 50px;
+}
+.image1{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+#fonctionnalite{
+    background-color: rgb(240, 210, 75);
+    border-radius: 5px;
+}
+#solar{
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+#solar h1{
+    color: white;
+    font-size: 50px;
+}
+#cord{
+    display: flex;
+    padding: 0 5%;
+}
+.pointclé{
+background-color: rgb(243, 241, 241);
+margin: 5px;
+border-radius: 5px;
+}
+.pointclé h1{
+    font-size: 25px;
+}
+.form-container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(147, 147, 238);
+    width: 100%;
+    max-width: 400%;
+}
+.form-container{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    font-size: 14px;
+    color: blue;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color:blue;
+}
+textarea{
+    resize: vertical;
+}
+button{
+    width: 20%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: 16px;
+    transition: backgroup-color 0.3s;
+}
+button :hover{
+    background-color: blue;
+}
+footer{
+    background-color: bisque;
+    padding-top: 30px;
+}
+#copy{
+    text-align: center;
+}
